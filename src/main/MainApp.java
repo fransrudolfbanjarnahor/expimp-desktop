@@ -25,10 +25,10 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import ff.db.DBConfig;
-import ff.db.DBType;
-import ff.db.Database;
-import ff.db.SQLOperation;
+import sql.DBConfig;
+import sql.DBType;
+import sql.Database;
+import sql.SQLOperation;
 import xls.XLExport;
 import xls.XLReader;
 

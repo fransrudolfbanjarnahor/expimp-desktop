@@ -14,7 +14,7 @@ import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 
-import ff.db.SQLOperation;
+import sql.SQLOperation;
 
 import javax.swing.JTable;
 import java.awt.Font;
@@ -56,10 +56,8 @@ public class ShowTableData extends JFrame {
 		contentPane.setLayout(new GridLayout(0, 1, 0, 0));
 
 		scrollPane = new JScrollPane(table);
-		scrollPane
-				.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
-		scrollPane
-				.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+		scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+		scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
 		contentPane.add(scrollPane);
 
 	}
